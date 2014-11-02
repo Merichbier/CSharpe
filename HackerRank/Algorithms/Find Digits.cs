@@ -4,16 +4,16 @@ using System.IO;
 
 class Solution
 {
-    //static void Main(String[] args)
-    //{
-    //    Int64 nbTest = Int64.Parse(Console.ReadLine());
-    //    for (int test = 0; test < nbTest; ++test)
-    //    {
-    //        Int64 N = Int64.Parse(Console.ReadLine());
-    //        solve(N);
-    //    }
-    //    Console.ReadLine();
-    //}
+    static void Main(String[] args)
+    {
+        Int64 nbTest = Int64.Parse(Console.ReadLine());
+        for (int test = 0; test < nbTest; ++test)
+        {
+            Int64 N = Int64.Parse(Console.ReadLine());
+            solve(N);
+        }
+        Console.ReadLine();
+    }
 
     static void solve(Int64 number)
     {
