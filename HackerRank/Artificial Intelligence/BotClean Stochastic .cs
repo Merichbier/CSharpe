@@ -8,22 +8,22 @@ namespace HackerRank
 {
     class BotCleanStochastic
     {
-        //static void Main(String[] args)
-        //{
-        //    String pos = Console.ReadLine();
-        //    String[] position = pos.Split(' ');
-        //    int[] bot_pos = new int[2];
-        //    bot_pos[0] = Convert.ToInt32(position[0]);
-        //    bot_pos[1] = Convert.ToInt32(position[1]);
-        //    String[] grid = new String[5];
-        //    for (int i = 0; i < 5; i++)
-        //    {
-        //        grid[i] = Console.ReadLine();
-        //    }
+        static void Main(String[] args)
+        {
+            String pos = Console.ReadLine();
+            String[] position = pos.Split(' ');
+            int[] bot_pos = new int[2];
+            bot_pos[0] = Convert.ToInt32(position[0]);
+            bot_pos[1] = Convert.ToInt32(position[1]);
+            String[] grid = new String[5];
+            for (int i = 0; i < 5; i++)
+            {
+                grid[i] = Console.ReadLine();
+            }
 
-        //        nextMove(bot_pos, grid);
+                nextMove(bot_pos, grid);
 
-        //}
+        }
 
         static void nextMove(int[] bot, String[] grid)
         {

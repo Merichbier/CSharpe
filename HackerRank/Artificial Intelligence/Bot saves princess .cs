@@ -10,20 +10,20 @@ namespace HackerRank
     {
 
 
-        //static void Main(String[] args)
-        //{
-        //    int n;
+        static void Main(String[] args)
+        {
+            int n;
 
-        //    n = int.Parse(Console.ReadLine());
-        //    String[] grid = new String[n];
-        //    for (int i = 0; i < n; i++)
-        //    {
-        //        grid[i] = Console.ReadLine();
-        //    }
-        //    nextMove(n, grid);
-        //    Console.ReadLine();
+            n = int.Parse(Console.ReadLine());
+            String[] grid = new String[n];
+            for (int i = 0; i < n; i++)
+            {
+                grid[i] = Console.ReadLine();
+            }
+            nextMove(n, grid);
+            Console.ReadLine();
 
-        //}
+        }
 
         static void nextMove(int n, String[] grid)
         {

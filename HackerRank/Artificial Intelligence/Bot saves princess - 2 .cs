@@ -8,26 +8,26 @@ namespace HackerRank.BotSavesPrincessMinusTwo
     class BotSavesPrincessMinus2
     {
 
-        //static void Main(String[] args)
-        //{
-        //    int n;
+        static void Main(String[] args)
+        {
+            int n;
 
-        //    n = int.Parse(Console.ReadLine());
-        //    String pos;
-        //    pos = Console.ReadLine();
-        //    String[] position = pos.Split(' ');
-        //    int[] bot_pos = new int[2];
-        //    bot_pos[0] = Convert.ToInt32(position[0]);
-        //    bot_pos[1] = Convert.ToInt32(position[1]);
-        //    String[] grid = new String[n];
-        //    for (int i = 0; i < n; i++)
-        //    {
-        //        grid[i] = Console.ReadLine();
-        //    }
+            n = int.Parse(Console.ReadLine());
+            String pos;
+            pos = Console.ReadLine();
+            String[] position = pos.Split(' ');
+            int[] bot_pos = new int[2];
+            bot_pos[0] = Convert.ToInt32(position[0]);
+            bot_pos[1] = Convert.ToInt32(position[1]);
+            String[] grid = new String[n];
+            for (int i = 0; i < n; i++)
+            {
+                grid[i] = Console.ReadLine();
+            }
 
-        //    nextMove(n, bot_pos[0], bot_pos[1], grid);
+            nextMove(n, bot_pos[0], bot_pos[1], grid);
 
-        //}
+        }
 
         static void nextMove(int n, int r, int c, String[] grid)
         {
