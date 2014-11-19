@@ -53,7 +53,7 @@ namespace HackerRank.Artificial_Intelligence
             return map;
         }
 
-        static private List<Vertex> dijkstra(Vertex Start, Dictionary<Vertex, List<Edge>> map) 
+        static private List<Vertex> solver(Vertex Start, Dictionary<Vertex, List<Edge>> map) 
         {
             List<Vertex> shortestPath = new List<Vertex>();
             var toVisit = map.Keys.ToList().OrderBy(vertex => vertex.step);
@@ -95,7 +95,7 @@ namespace HackerRank.Artificial_Intelligence
             vertices.Add(start);
             //vertices.ForEach(v => Console.Write("{0} --> ", v));
             Dictionary<Vertex, List<Edge>> graph = ConstructGraph(vertices);
-            List<Vertex> pathToFollow = dijkstra(start, graph);
+            List<Vertex> pathToFollow = solver(start, graph);
             Console.WriteLine(computeMove(pathToFollow.ElementAt(0), pathToFollow.ElementAt(1)));
             }
             
